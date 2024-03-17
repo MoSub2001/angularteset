@@ -1,0 +1,9 @@
+<div class="container" ng-if="user">
+    <h2>User Details</h2>
+    <div>
+        <img ng-src="{{user.avatar}}" alt="{{user.first_name}} {{user.last_name}}">
+        <h3>{{user.first_name}} {{user.last_name}}</h3>
+        <p>Email: {{user.email}}</p>
+    </div>
+    <button ng-click="backToList()">Back</button>
+</div>
