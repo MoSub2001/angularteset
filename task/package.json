@@ -1,0 +1,14 @@
+{
+    "name": "user-management-app",
+    "version": "1.0.0",
+    "description": "A simple user management application",
+    "main": "app.js",
+    "scripts": {
+      "start": "http-server -o"
+    },
+    "dependencies": {
+      "angular": "^1.5.7",
+      "angular-route": "^1.5.7",
+      "http-server": "^0.12.3"
+    }
+  }
